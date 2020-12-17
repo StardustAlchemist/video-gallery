@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './components/Nabvar';
 import About from './components/routes/About';
 import Grid from './components/Grid';
+import Movie from './components/Movie';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Switch>
           <Route exact path="/" component={Grid}></Route>
           <Route exact path="/about" component={About}></Route>
+          <Route path="/movie/:name" component={Movie}></Route>
         </Switch>
       </div>
     </Router>

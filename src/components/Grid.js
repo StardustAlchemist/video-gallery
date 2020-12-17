@@ -1,4 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import SaintSeiya from '../resources/images/SaintSeiyaOverture.jpg';
+import Evangelion from '../resources/images/Evangelion3.jpg';
+import GhostInTheShell from '../resources/images/GhostInTheShell.jpg';
 
 const Grid = () => {
   return (
@@ -6,24 +10,24 @@ const Grid = () => {
       <div className="container">
         <div className="row">
           <div className="col-sm">
-            <img src={process.env.PUBLIC_URL + '/logo192.png'} alt="React" />
+            <Link to="/movie/SaintSeiya">
+              <img src={SaintSeiya} width="250px" height="200px" alt="React" />
+            </Link>
           </div>
           <div className="col-sm">
-            <img src={process.env.PUBLIC_URL + '/logo192.png'} alt="React" />
+            <Link to="/movie/Evangelion">
+              <img src={Evangelion} width="250px" height="200px" alt="React" />
+            </Link>
           </div>
           <div className="col-sm">
-            <img src={process.env.PUBLIC_URL + '/logo192.png'} alt="React" />
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-sm">
-            <img src={process.env.PUBLIC_URL + '/logo192.png'} alt="React" />
-          </div>
-          <div className="col-sm">
-            <img src={process.env.PUBLIC_URL + '/logo192.png'} alt="React" />
-          </div>
-          <div className="col-sm">
-            <img src={process.env.PUBLIC_URL + '/logo192.png'} alt="React" />
+            <Link to="/movie/Ghost-In-The-Shell">
+              <img
+                src={GhostInTheShell}
+                width="250px"
+                height="200px"
+                alt="React"
+              />
+            </Link>
           </div>
         </div>
       </div>
