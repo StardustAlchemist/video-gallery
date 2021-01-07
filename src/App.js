@@ -9,7 +9,7 @@ import Movie from './components/Movie';
 const App = () => {
   return (
     <Router>
-      <Navbar></Navbar>;
+      <Navbar></Navbar>
       <div className="container">
         <Switch>
           <Route exact path="/" component={Grid}></Route>

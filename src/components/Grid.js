@@ -7,15 +7,15 @@ import GhostInTheShell from '../resources/images/GhostInTheShell.jpg';
 const Grid = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container" style={{ marginTop: '20px' }}>
         <div className="row">
           <div className="col-sm">
-            <Link to="/movie/SaintSeiya">
+            <Link to="/movie/Saint-Seiya">
               <img src={SaintSeiya} width="250px" height="200px" alt="React" />
             </Link>
           </div>
           <div className="col-sm">
-            <Link to="/movie/Evangelion">
+            <Link to="/movie/Evangelion-3">
               <img src={Evangelion} width="250px" height="200px" alt="React" />
             </Link>
           </div>

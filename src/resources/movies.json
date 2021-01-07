@@ -1,0 +1,19 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "Saint-Seiya",
+      "url": "http://localhost:5000/videos/saint-seiya.mp4"
+    },
+    {
+      "id": 2,
+      "name": "Ghost-In-The-Shell",
+      "url": "http://localhost:5000/videos/ghost-in-the-shell.mp4"
+    },
+    {
+      "id": 3,
+      "name": "Evangelion-3",
+      "url": "http://localhost:5000/videos/evangelion-3.mp4"
+    }
+  ]
+}

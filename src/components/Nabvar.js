@@ -1,16 +1,16 @@
 import React, { Fragment } from 'react';
 import { Link } from 'react-router-dom';
+import Brand from '../resources/images/logo.png';
 
 const Nabvar = () => {
   return (
     <Fragment>
-      <nav className="navbar navbar-expand-lg navbar-light bg-primary">
+      <nav className="navbar navbar-expand-md py-4 navbar-dark bg-dark">
         <a className="navbar-brand" href="#">
-          Navbar
+          <img src={Brand} width="100" height="50" alt="" />
         </a>
-
         <div
-          className="collapse navbar-collapse justify-content-end"
+          className="d-flex collapse navbar-collapse justify-content-end"
           id="navbarNavDropdown"
         >
           <ul className="navbar-nav">
