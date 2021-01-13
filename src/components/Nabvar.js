@@ -6,7 +6,7 @@ const Nabvar = () => {
   return (
     <Fragment>
       <nav className="navbar navbar-expand-md py-4 navbar-dark bg-dark">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/">
           <img src={Brand} width="100" height="50" alt="" />
         </a>
         <div
